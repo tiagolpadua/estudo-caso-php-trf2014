@@ -1,5 +1,5 @@
-<?php class Funcionario
-{
+<?php
+class Funcionario {
     private $id;
     private $nome;
     function __construct() {}
@@ -8,3 +8,4 @@
     public function getNome() {return $this->nome;}
     public function setNome($nome) {$this->nome = $nome;}
 }
+?>
